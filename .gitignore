@@ -1,0 +1,22 @@
+# Directorios de node_modules
+node_modules/
+
+# Directorios de entornos virtuales de Python
+mi_entorno/
+
+# Archivos de base de datos o binarios de Elasticsearch
+*.tar.gz
+elasticsearch-*
+
+# Configuraciones específicas del sistema, como archivos .DS_Store en Mac
+.DS_Store
+
+# Archivos temporales o de caché que no necesitan estar en el control de versiones
+*.pyc
+__pycache__/
+
+# Archivos de configuración que pueden contener información sensible
+config.json
+
+# Si usas archivos .env para tus variables de entorno, debes excluirlos también
+.env
